@@ -125,43 +125,32 @@ class _StarListsState extends State<StarLists> {
                       Row(
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
-                          Column(
-                            // crossAxisAlignment: CrossAxisAlignment.start,
-                            children: [
-                              Row(
-                                // mainAxisAlignment: MainAxisAlignment.start,
-                                children: [
-                                  const SizedBox(width: 25),
-                                  const Text(
-                                    '--> ',
-                                    style: TextStyle(
-                                      fontSize: 18,
-                                    ),
-                                  ),
-                                  SizedBox(
-                                    width: 280,
-                                    child: Text(
-                                      tDirect['directmsg'],
-                                      style: const TextStyle(
-                                        fontSize: 18,
-                                      ),
-                                    ),
-                                  ),
-                                ],
+                          const SizedBox(width: 25),
+                          const Expanded(
+                            flex: 1,
+                            child: Text(
+                              '--> ',
+                              style: TextStyle(
+                                fontSize: 18,
                               ),
-                            ],
+                            ),
                           ),
-                          Column(
-                            children: [
-                              IconButton(
-                                onPressed: () {},
-                                icon: const Icon(
-                                  Icons.star,
-                                  size: 25,
-                                  color: Colors.indigo,
-                                ),
+                          Expanded(
+                            flex: 10,
+                            child: Text(
+                              tDirect['directmsg'],
+                              style: const TextStyle(
+                                fontSize: 18,
                               ),
-                            ],
+                            ),
+                          ),
+                          IconButton(
+                            onPressed: () {},
+                            icon: const Icon(
+                              Icons.star,
+                              size: 25,
+                              color: Colors.indigo,
+                            ),
                           ),
                         ],
                       ),
@@ -227,43 +216,37 @@ class _StarListsState extends State<StarLists> {
                       Row(
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
-                          Column(
-                            // crossAxisAlignment: CrossAxisAlignment.start,
+                          Row(
+                            // mainAxisAlignment: MainAxisAlignment.start,
                             children: [
-                              Row(
-                                // mainAxisAlignment: MainAxisAlignment.start,
-                                children: [
-                                  const SizedBox(width: 25),
-                                  const Text(
-                                    '--> ',
-                                    style: TextStyle(
-                                      fontSize: 18,
-                                    ),
+                              const SizedBox(width: 25),
+                              const Expanded(
+                                flex: 1,
+                                child: Text(
+                                  '--> ',
+                                  style: TextStyle(
+                                    fontSize: 18,
                                   ),
-                                  SizedBox(
-                                    width: 280,
-                                    child: Text(
-                                      tThread['directthreadmsg'],
-                                      style: const TextStyle(
-                                        fontSize: 18,
-                                      ),
-                                    ),
-                                  ),
-                                ],
+                                ),
                               ),
-                            ],
-                          ),
-                          Column(
-                            children: [
-                              IconButton(
-                                onPressed: () {},
-                                icon: const Icon(
-                                  Icons.star,
-                                  size: 25,
-                                  color: Colors.indigo,
+                              Expanded(
+                                flex: 10,
+                                child: Text(
+                                  tThread['directthreadmsg'],
+                                  style: const TextStyle(
+                                    fontSize: 18,
+                                  ),
                                 ),
                               ),
                             ],
+                          ),
+                          IconButton(
+                            onPressed: () {},
+                            icon: const Icon(
+                              Icons.star,
+                              size: 25,
+                              color: Colors.indigo,
+                            ),
                           ),
                         ],
                       ),
@@ -329,43 +312,32 @@ class _StarListsState extends State<StarLists> {
                       Row(
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
-                          Column(
-                            // crossAxisAlignment: CrossAxisAlignment.start,
-                            children: [
-                              Row(
-                                // mainAxisAlignment: MainAxisAlignment.start,
-                                children: [
-                                  const SizedBox(width: 25),
-                                  const Text(
-                                    '--> ',
-                                    style: TextStyle(
-                                      fontSize: 18,
-                                    ),
-                                  ),
-                                  SizedBox(
-                                    width: 280,
-                                    child: Text(
-                                      tGroup['groupmsg'],
-                                      style: const TextStyle(
-                                        fontSize: 18,
-                                      ),
-                                    ),
-                                  ),
-                                ],
+                          const SizedBox(width: 25),
+                          const Expanded(
+                            flex: 1,
+                            child: Text(
+                              '--> ',
+                              style: TextStyle(
+                                fontSize: 18,
                               ),
-                            ],
+                            ),
                           ),
-                          Column(
-                            children: [
-                              IconButton(
-                                onPressed: () {},
-                                icon: const Icon(
-                                  Icons.star,
-                                  size: 25,
-                                  color: Colors.indigo,
-                                ),
+                          Expanded(
+                            flex: 10,
+                            child: Text(
+                              tGroup['groupmsg'],
+                              style: const TextStyle(
+                                fontSize: 18,
                               ),
-                            ],
+                            ),
+                          ),
+                          IconButton(
+                            onPressed: () {},
+                            icon: const Icon(
+                              Icons.star,
+                              size: 25,
+                              color: Colors.indigo,
+                            ),
                           ),
                         ],
                       ),
@@ -431,43 +403,32 @@ class _StarListsState extends State<StarLists> {
                       Row(
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
-                          Column(
-                            // crossAxisAlignment: CrossAxisAlignment.start,
-                            children: [
-                              Row(
-                                // mainAxisAlignment: MainAxisAlignment.start,
-                                children: [
-                                  const SizedBox(width: 25),
-                                  const Text(
-                                    '--> ',
-                                    style: TextStyle(
-                                      fontSize: 18,
-                                    ),
-                                  ),
-                                  SizedBox(
-                                    width: 280,
-                                    child: Text(
-                                      tGroupThread['groupthreadmsg'],
-                                      style: const TextStyle(
-                                        fontSize: 18,
-                                      ),
-                                    ),
-                                  ),
-                                ],
+                          const SizedBox(width: 25),
+                          const Expanded(
+                            flex: 1,
+                            child: Text(
+                              '--> ',
+                              style: TextStyle(
+                                fontSize: 18,
                               ),
-                            ],
+                            ),
                           ),
-                          Column(
-                            children: [
-                              IconButton(
-                                onPressed: () {},
-                                icon: const Icon(
-                                  Icons.star,
-                                  size: 25,
-                                  color: Colors.indigo,
-                                ),
+                          Expanded(
+                            flex: 10,
+                            child: Text(
+                              tGroupThread['groupthreadmsg'],
+                              style: const TextStyle(
+                                fontSize: 18,
                               ),
-                            ],
+                            ),
+                          ),
+                          IconButton(
+                            onPressed: () {},
+                            icon: const Icon(
+                              Icons.star,
+                              size: 25,
+                              color: Colors.indigo,
+                            ),
                           ),
                         ],
                       ),
